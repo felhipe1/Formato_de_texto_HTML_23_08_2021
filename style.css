@@ -1,0 +1,25 @@
+
+
+.Warning{
+    background-color: #ffc107;
+    color: #000000;
+}
+
+.Success{
+    background-color: #198754;
+    color: #ffffff;
+}
+.Danger{
+    background-color: #dc3545;
+    color: #ffffff;
+}
+.Primary{
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.Success::selection ,.Warning::selection,
+.Danger::selection ,.Primary::selection{
+    background-color: #ccc;
+    opacity: 0.5;
+}
